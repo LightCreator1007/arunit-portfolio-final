@@ -62,11 +62,11 @@ function Hero() {
                     variants={childVariants}
                     className="relative z-10 flex flex-row justify-center gap-10 mt-10 font-[geist] cursor-pointer"
                 >
-                    <a href="/projects_page">
+                    <a href="/arunit-project-final/projects_page">
                         <Button>Projects</Button>
                     </a>
                     
-                    <a href="/blogs">
+                    <a href="/arunit-project-final/blogs">
                         <Button variant="secondary">Blogs</Button>
                     </a>
                 </motion.div>

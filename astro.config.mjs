@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   // REPLACE with your actual GitHub URL
   site: 'https://LightCreator1007.github.io',
-  base: '/arunit-project-final', 
+  base: '/arunit-portfolio-final', 
 
   integrations: [react()],
   vite: {
