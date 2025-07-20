@@ -62,11 +62,11 @@ function Hero() {
                     variants={childVariants}
                     className="relative z-10 flex flex-row justify-center gap-10 mt-10 font-[geist] cursor-pointer"
                 >
-                    <a href="/arunit-project-final/projects_page">
+                    <a href="/arunit-portfolio-final/projects_page">
                         <Button>Projects</Button>
                     </a>
                     
-                    <a href="/arunit-project-final/blogs">
+                    <a href="/arunit-portfolio-final/blogs">
                         <Button variant="secondary">Blogs</Button>
                     </a>
                 </motion.div>
@@ -81,7 +81,7 @@ function Hero() {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <img src="img/github.svg" alt="github profile" className="w-6 h-6" />
+                        <img src="/arunit-portfolio-final/img/github.svg" alt="github profile" className="w-6 h-6" />
                     </a>
                     <a 
                         href="https://www.linkedin.com/in/arunit-chakraborty/" 
@@ -89,7 +89,7 @@ function Hero() {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <img src="img/linkedin.svg" alt="linkedin profile" className="w-6 h-6" />
+                        <img src="/arunit-portfolio-final/img/linkedin.svg" alt="linkedin profile" className="w-6 h-6" />
                     </a>
 
                     <a 
@@ -98,7 +98,7 @@ function Hero() {
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
-                        <img src="img/mail.svg" alt="email profile" className="w-6 h-6" />
+                        <img src="/arunit-portfolio-final/img/mail.svg" alt="email profile" className="w-6 h-6" />
                     </a>
                 </motion.div>
             </motion.div>
