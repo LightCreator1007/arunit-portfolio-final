@@ -4,8 +4,15 @@ import { Calendar, ArrowRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import BlogOverlay from "./BlogOverlay";
 
-const blogs = [
-  
+const blogs = [ 
+  {
+    id: 1,
+    title: "RAII in C++ and its adoption in Rust",
+    description: "A deep dive into the RAII (Resource Acquisition Is Initialization) paradigm in C++ and how Rust has adopted and evolved this concept to ensure memory safety and efficient resource management.",
+    date: "02-10-2025",
+    tags: ["C++", "Rust", "RAII", "Memory Management"],
+    markdownPath: "/arunit-portfolio-final/blogposts/raii-cpp-rust.md"
+  },
 ];
 
 function BlogCard({ blog, onClick }) {
@@ -72,7 +79,6 @@ function BlogCard({ blog, onClick }) {
   );
 }
 
-// Main Blog Component
 function Blog() {
   const [selectedBlog, setSelectedBlog] = useState(null);
 
